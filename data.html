@@ -16,6 +16,7 @@
   <link href="//Microsoft.WinJS.2.0/css/ui-dark.css" rel="stylesheet" />
   <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
   <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+  <link href="landstyle.css" rel="stylesheet">
 
 <body class="grey">
     <div  id="wrapper">
@@ -45,6 +46,21 @@
                     <li class="py-0 nav-item">
                         <a class="nav-link" href="data.html">Data</a>
                     </li>
+                    <li><div class="dropdown"id="nav-select">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <li><a href="max_temp.html">Max Temperature</a></li>
+                              <li><a href="humidity.html">Humidity</a></li>
+                              <li><a href="cloudiness.html">Cloudiness</a></li>
+                              <li><a href="wind_speed.html">Wind Speed</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="comparison.html">Comparison</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="data.html">Data</a></li>
+                            </ul>
+                    </div></li>
                 </ul>
             </div>
         </div>
