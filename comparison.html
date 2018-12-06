@@ -12,7 +12,7 @@
   <script scr="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
   <script scr="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link href="style.css" rel="stylesheet">
+  <link href="landstyle.css" rel="stylesheet">
 </head>
 
 <body class="grey">
@@ -22,7 +22,7 @@
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <span class = "navbar-brand text-white bg-primary font">Latitude</span>
+                <a href="Web-Visualization-Dashboard.html" class="navbar-brand text-white bg-primary font">Latitude</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,6 +43,21 @@
                     <li class="py-0 nav-item">
                         <a class="nav-link" href="data.html">Data</a>
                     </li>
+                    <li><div class="dropdown"id="nav-select">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                              <span class="glyphicon glyphicon-align-justify"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                              <li><a href="max_temp.html">Max Temperature</a></li>
+                              <li><a href="humidity.html">Humidity</a></li>
+                              <li><a href="cloudiness.html">Cloudiness</a></li>
+                              <li><a href="wind_speed.html">Wind Speed</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="comparison.html">Comparison</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="data.html">Data</a></li>
+                            </ul>
+                    </div></li>
                 </ul>
             </div>
         </div>
@@ -54,20 +69,20 @@
             <hr size="30">
             <div class="container">
                 <div class="row block-center">
-                    <div class="col-md-5">
-                        <img src="Resources/assets/images/fig1.png"width="500" height="500">
+                    <div class="col-md-5 col-sm-10">
+                        <a href="max_temp.html"><img class="img-responsive" src="Resources/assets/images/fig1.png"style="width:100%"></a>
                     </div>
-                    <div class="col-md-5">
-                        <img src="Resources/assets/images/fig2.png"width="500" height="500">
+                    <div class="col-md-5 col-sm-10">
+                        <a href="humidity.html"><img class="img-responsive" src="Resources/assets/images/fig2.png" style="width:100%"></a>
                     </div>
                 </div>
             </br>
                 <div class="row">
-                    <div class="col-md-5">
-                            <img src="Resources/assets/images/fig3.png"width="500" height="500">
+                    <div class="col-md-5 col-sm-10">
+                        <a href="cloudiness.html"><img class="img-responsive" src="Resources/assets/images/fig3.png" style="width:100%"></a>
                     </div>
-                    <div class="col-md-5">
-                            <img src="Resources/assets/images/fig4.png"width="500" height="500">
+                    <div class="col-md-5 col-sm-10">
+                        <a href="wind_speed.html"><img class="img-responsive" src="Resources/assets/images/fig4.png" style="width: 100%"></a>
                     </div>
                 </div>
             </div>

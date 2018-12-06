@@ -1,0 +1,93 @@
+.grey{
+    background-color: lightgrey;
+}
+
+.white{
+    background-color:white
+}
+
+.font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
+}
+.space{
+    margin-left: 20px;
+}
+#footer {
+    position: absolute;
+    background-color: rgb(31, 121, 182);
+    text-align:center;
+}
+
+.rightbox{
+    background-color: white
+}
+
+.lefttbox{
+    background-color: white
+}
+
+.bar{
+    background-color: white
+}
+
+#nav-select {
+    visibility: hidden;
+    margin: 8px;
+  }
+.imageflow{
+    float: left;
+    margin: 5px;
+
+}
+@media (max-width: 985px) {
+    .figure-1 {
+        width: 100px;
+        height: 100px;
+        margin-right: 0%; 
+    }
+    .figure-2 {
+        width: 100px;
+        height: 100px;
+        margin-left: 100px;
+        margin-top: -120px;
+    }
+    .figure-3 {
+        width: 100px;
+        height: 100px;
+        margin-left: 200px;
+        margin-top: -200px;
+    }
+    .figure-4 {
+        width: 100px;
+        height: 100px;
+        margin-left: 300px;
+        margin-top: -240px;
+    }
+    .navbar {
+        background-color:rgb(31, 121, 182);
+
+    }
+    .navbar-ul {
+        margin-right: 465px;
+        margin-top: 40px;
+        color: white;
+        background-color: gray;
+    }
+    /*.grey{
+        background-color: white;
+    }*/
+    #nav-select {
+        visibility: visible;
+    }
+    #footer{
+        display: none;
+    }
+    .hide{
+        visibility: hidden;
+    }
+    .space{
+        margin-left: 0px;
+    } 
+}
+    
