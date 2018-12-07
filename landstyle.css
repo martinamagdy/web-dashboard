@@ -29,19 +29,19 @@
     background-color: white
 }
 
-.bar{
+.navbar{
     background-color: white
 }
 
-#nav-select {
-    visibility: hidden;
-    margin: 8px;
-  }
 .imageflow{
     float: left;
     margin: 5px;
 
 }
+.navbar-toggler{
+    margin: 9px;
+}
+
 @media (max-width: 985px) {
     .figure-1 {
         width: 100px;
@@ -66,28 +66,15 @@
         margin-left: 300px;
         margin-top: -240px;
     }
-    .navbar {
-        background-color:rgb(31, 121, 182);
-
-    }
-    .navbar-ul {
-        margin-right: 465px;
-        margin-top: 40px;
-        color: white;
-        background-color: gray;
-    }
+  
     /*.grey{
         background-color: white;
     }*/
-    #nav-select {
-        visibility: visible;
-    }
+    
     #footer{
         display: none;
     }
-    .hide{
-        visibility: hidden;
-    }
+    
     .space{
         margin-left: 0px;
     } 
